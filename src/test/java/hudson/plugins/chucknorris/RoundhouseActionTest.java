@@ -8,14 +8,14 @@ public class RoundhouseActionTest extends TestCase {
 
 	public void setUp() {
 		action = new RoundhouseAction(Style.BAD_ASS,
-				"Chuck Norris can divide by zero.");
+				"Mimmo can divide by zero.");
 	}
 
 	public void testAccessors() {
 		assertEquals(Style.BAD_ASS, action.getStyle());
-		assertEquals("Chuck Norris can divide by zero.", action
+		assertEquals("Mimmo can divide by zero.", action
 				.getFact());
-		assertEquals("Chuck Norris", action.getDisplayName());
+		assertEquals("Mimmo", action.getDisplayName());
 		assertNull(action.getIconFileName());
 		assertEquals("chucknorris", action.getUrlName());
 	}

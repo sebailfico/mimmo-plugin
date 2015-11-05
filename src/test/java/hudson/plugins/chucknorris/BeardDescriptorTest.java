@@ -13,7 +13,7 @@ public class BeardDescriptorTest extends TestCase {
 	}
 
 	public void testGetDisplayName() {
-		assertEquals("Activate Chuck Norris", descriptor.getDisplayName());
+		assertEquals("Activate Mimmo", descriptor.getDisplayName());
 	}
 
 	public void testIsApplicableGivesTrue() {

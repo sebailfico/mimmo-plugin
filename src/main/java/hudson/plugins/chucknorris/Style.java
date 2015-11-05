@@ -50,6 +50,7 @@ public enum Style {
      */
     public static final Style get(final Result result) {
         Style style;
+
         if (Result.FAILURE.equals(result)) {
             style = BAD_ASS;
         } else if (Result.SUCCESS.equals(result)) {
